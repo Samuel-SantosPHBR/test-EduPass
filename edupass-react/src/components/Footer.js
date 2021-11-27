@@ -9,9 +9,6 @@ import {
 import './FooterStyle.css';
 
 const useStyles = makeStyles((theme) => ({
-    navlinks: {
-        display: "flex",
-    },
     logo: {
         flexGrow: "1",
         cursor: "pointer",
@@ -36,7 +33,7 @@ export default function Footer() {
                 </div>
                 <div>
                     <span className="spanFooter spanFooterColor">Precisa de ajuda? </span>
-                    <span className="spanFooter"><img style={{width:'3vh'}} src="https://api.edupass.io/api/contents/assets/whatsapp-icon.png" /> Chama no WhatsApp</span>
+                    <span className="spanFooter"><img alt="whatsapp" style={{width:'3vh'}} src="https://api.edupass.io/api/contents/assets/whatsapp-icon.png" /> Chama no WhatsApp</span>
                 </div>
             </Toolbar>
         </AppBar>

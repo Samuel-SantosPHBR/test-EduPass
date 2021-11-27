@@ -33,7 +33,7 @@ export default function NavBar() {
             <CssBaseline />
             <Toolbar>
                 <Typography variant="h4" className={classes.logo}>
-                    <img className="logoImg" src="https://api.edupass.io/api/contents/assets/logo.png" />
+                    <img alt="Logo EduPass" className="logoImg" src="https://api.edupass.io/api/contents/assets/logo.png" />
                 </Typography>
                 <div className="inputBusca">
                     <FormControl size="small" variant="outlined" >

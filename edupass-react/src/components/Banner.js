@@ -9,7 +9,7 @@ export default function Banner() {
                 <h4 className="text-banner">Cursos Gratuitos</h4>
             </div>
             <div className="divisoria-banner bannerImage">
-                <img className="img-banner" src="https://api.edupass.io/api/contents/categorias/perfil.png" />
+                <img alt="Imagem banner" className="img-banner" src="https://api.edupass.io/api/contents/categorias/perfil.png" />
             </div>
         </Box>
     );

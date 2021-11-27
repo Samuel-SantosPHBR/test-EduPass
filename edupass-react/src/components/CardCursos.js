@@ -1,7 +1,6 @@
 import React from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
 import {Grid,Button} from "@material-ui/core";
 
 import './CardCursosStyle.css';
@@ -16,7 +15,7 @@ export default function RecipeReviewCard(props) {
                 <CardContent>
                     <div className="card-body" variant="body2" color="textSecondary">
                         <div className="header-card">
-                            <img src="https://api.edupass.io/api/contents/assets/logo.png" />
+                            <img alt="Logo EduPass" src="https://api.edupass.io/api/contents/assets/logo.png" />
                             <h1>{dataElement.curso_detalhe.curso.curso || 'Sem Nome'}</h1>
                         </div>
                         <hr />
@@ -68,7 +67,7 @@ export default function RecipeReviewCard(props) {
                             </Grid>
                             <Button onClick={e => {
                                 alert(`Curso: ${dataElement.curso_detalhe.curso.curso} \n${dataElement.campus.cidade}\n${dataElement.duracao} ${dataElement.duracao_tipo}\n${dataElement.turno}\n${dataElement.modalidade.modalidade}`)}
-                            } style={{marginTop: 25,marginBottom: 20}} variant="contained" color="secondary" href="#contained-buttons">
+                            } style={{marginTop: 25,marginBottom: 20,backgroundColor:'#7b287e',color:'white'}} variant="contained" href="#contained-buttons">
                                 SAIBA MAIS
                             </Button>
                         </div>
