@@ -1,0 +1,16 @@
+.button-action{
+    display: inline;
+    margin-left: 3vh;
+    margin-right: 5vh;
+
+}
+
+.action-div {
+    padding: 3vh;
+    background-color: white !important;
+    border-top: 1px solid silver;
+}
+
+.remover-filtro {
+    text-decoration: underline;
+}

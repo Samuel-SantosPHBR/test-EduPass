@@ -1,0 +1,28 @@
+.text-footer {
+    font-size: 2vh;
+}
+
+.centerFooterText {
+    margin-left: 15vh;
+}
+
+.footerCenter {
+    margin-right: 60vh;
+    text-align: center;
+}
+
+
+
+.spanFooter {
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 15px;
+    display: inherit;
+    color: black;
+}
+
+.spanFooterColor {
+    margin-left: 20%;
+    color: #7b287e;
+    font-weight: bold;
+}

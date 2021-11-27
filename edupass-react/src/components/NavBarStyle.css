@@ -1,0 +1,22 @@
+.spanHead {
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 15px;
+    display: inherit;
+    color: black;
+}
+
+.spanHeadColor {
+    margin-left: 3px;
+    color: #7b287e;
+    font-weight: bold;
+}
+
+.logoImg {
+    width: 25%;
+}
+
+.inputBusca {
+    margin-right: 60vh;
+}
+

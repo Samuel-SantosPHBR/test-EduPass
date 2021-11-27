@@ -1,0 +1,30 @@
+.banner-div {
+    background-color: #3bd7c8;
+    height: 40vh;
+    overflow: hidden;
+}
+.divisoria-banner {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    align-items: end;
+}
+
+.bannerImage {
+    text-align: end;
+}
+
+.img-banner {
+    width: 60%;
+    margin-top: -5%;
+}
+
+.text-banner {
+    font-size: 7vh;
+    padding: 5vh 5vh 5px;
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    top: -5%;
+
+}
